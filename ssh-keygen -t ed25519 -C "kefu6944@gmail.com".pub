@@ -1,0 +1,5 @@
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILLyYAdcvTofuo3nnGb9Urk/F8HaCfRHONZ3QoUpSirJ “kefu6944@gmail.com
+
+ssh-keygen -t ed25519 -C kefu6944@gmail.com
+ssh-keygen -t ed25519 -C kefu6944@gmail.com
+ssh-keygen -t ed25519 -C kefu6944@gmail.com
