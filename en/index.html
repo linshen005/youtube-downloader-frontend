@@ -51,7 +51,7 @@
       }
       message.innerText = "Preparing download...";
 
-      fetch('https://youtube-downloader-backend-production.up.railway.app/download/?mode=json', {
+      fetch('const apiUrl = "https://youtube-downloader-backend-1-rwff.onrender.com";', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: `url=${encodeURIComponent(url)}&format=${format}`
