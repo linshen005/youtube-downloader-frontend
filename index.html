@@ -51,7 +51,7 @@
       }
       message.innerText = "准备下载中...";
 
-      fetch('const apiUrl = "https://youtube-downloader-backend-1-rwff.onrender.com";', {
+      fetch('https://youtube-downloader-backend-1-rwff.onrender.com', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: `url=${encodeURIComponent(url)}&format=${format}`
